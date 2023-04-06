@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    outline: none; 
+}
+
+
+.content{
+    padding: .8rem;
+}
+@media screen and (min-width: 992px) {
+   .content{
+    max-width: 992px;
+    margin: 0 auto;
+   }
+  }
+.content h1{
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.cards{
+    margin: 15px 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.pokemon{
+    width: auto;
+    margin: .5rem;
+    padding:0.700rem;
+    background-color: #14a06f;
+    color:#fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+@media screen and (min-width: 480px) {
+   .pokemon{
+    grid-template-columns: 1fr 1fr ;
+   }
+  }
+.number{
+color: #000;
+opacity: .8;
+text-align: end;
+font-size: 0.5;
+}
+.name{
+    text-transform: uppercase;
+    margin-top:-5px ;
+}
+    
+.delits{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.delits img{
+    width: 30%;
+}
+.types{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.type{
+    background-color: #61e1ca;
+    color:#fff;
+    margin-top: 0.25rem;
+    border-radius: 5px;
+    padding: .4rem;
+}
