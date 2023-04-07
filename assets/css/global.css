@@ -6,7 +6,7 @@
 
 
 .content{
-    padding: .8rem;
+    padding: .5rem;
 }
 @media screen and (min-width: 992px) {
    .content{
@@ -21,11 +21,12 @@
     text-transform: uppercase;
 }
 .cards{
+    width: 70%;
     margin: 15px 0;
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 .pokemon{
     width: auto;
